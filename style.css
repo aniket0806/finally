@@ -1,0 +1,215 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* html::-webkit-scrollbar{
+    width: 10px;
+    background-color: white;
+}
+
+html::-webkit-scrollbar-thumb{
+    width: 100%;
+    background-color: black;
+    border-radius: 100px;
+} */
+#main1{
+    width: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("./header.jpg");
+    border-top: 1px solid transparent;  
+}
+#fixed{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 999;
+    /* background-color: rgb(255, 255, 255); */
+}
+#fixed #nav{
+    display: flex;
+}
+#logo{
+   width: 40%;
+    height: 60px;
+    padding:  10px 30px;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+#logo1 #ion{
+    position: absolute;
+    left: 3%;
+    top: 2%;
+    display: initial;
+    width: 50px;
+}
+#logo img{
+    display: none;
+    width: 80px;
+}
+#logo h3{
+    position: absolute;
+    left: 8%;
+    top: 28%;
+    color: white;
+    margin-right: 20px;
+    letter-spacing: 3px;
+}
+#logo h3 span{
+    color: #FFA500;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 3.75em ;
+    padding:  1.875em 1.25em;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+#header a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Gilroy";
+}
+#meun   {
+    display: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+#menubar{
+    position: absolute;
+    right:2%;
+    top: 12%;
+    z-index: 999;
+}
+#menu {
+    display: none;
+    width: 150px;
+    height: 200px;
+   background-color: rgb(0, 0, 0);
+   /* border: 1px solid transparent; */
+}
+
+#menu .links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 20px; */
+    /* background-color: rgb(255, 0, 0); */
+    margin-top: 15px;
+    
+}
+#menu .links a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    
+}
+#first{
+  width: 100%;
+   min-height: 60vh;
+   margin-top:70px;
+   display: flex;
+   justify-content: space-evenly;
+   /* background-color: rgb(158, 22, 22); */
+   padding: 30px 90px;
+}
+#post img{
+    width: 480px;
+    padding: 30px  20px;
+}
+
+#close i{
+   
+    position: absolute;
+    top: 1%;
+    right: 0%;
+    color: rgb(97, 11, 11);
+    z-index: 999;
+    font-size: 25px;
+}
+#topimg{
+    display: none;
+    position: absolute;
+    top: 4.5%;
+    left: 28%;
+}
+#topimg h1{
+    font-size: 16px;
+    color: white;
+    letter-spacing: 2px;
+}
+#topimg h1 span{
+    color:#FFA500;
+}
+
+
+
+
+
+
+
+@media (max-width: 550px){
+    
+    #logo{
+        background-color: transparent;
+        padding: 10px 15px;
+    }
+     #fixed {
+        position: initial;
+    }
+    #logo h3{
+        display: none;
+    }
+    #logo img{
+        display: initial;
+        width: 65px;
+    }
+    #header{
+        background-color: transparent;
+    }
+    #header a{
+        display: none;
+    }
+    #meun {
+        display: initial;
+        margin-left: 150px;
+        margin-top: 25px;
+    }
+    #first{
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    #post img{
+        width: 355px;
+        margin-left: -20px;
+    }
+
+    #fixed {
+        width: 100%;
+        height: 20px;
+    }
+    #topimg{
+        display: initial;
+    }
+    #logo1 #ion{
+       display: none;
+ 
+    }
+
+}
