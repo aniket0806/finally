@@ -94,7 +94,7 @@ a{
     align-items: center;
     justify-content: center;
     font-size: 30px;
-    color: white;
+    color: coral;
     align-items: center;
     /* margin-bottom: 20px; */
     line-height: 60px;
@@ -296,6 +296,7 @@ a{
     /* background-color: lightcoral; */
     padding: 10px 10px;
     margin-top: 20px;
+    margin-left: -48px;
     overflow: auto;
 }
 .container3{
@@ -434,31 +435,6 @@ a{
     #imp h6{
         font-size: 14px;
     }
-    /* #section2 {
-        /* display: flex; */
-        /* white-space: nowrap;
-        margin-top: 30px ;
-        width: 100%;
-        min-height: 80vh;
-        background-color: rgba(255, 0, 0, 0.164);
-        overflow: auto;
-        padding: 27px 28px; */
-    
-    /* .container2{
-        display: inline;
-         white-space: nowrap; 
-       width: 240px;
-        height:380px;
-        background-color: white;
-    } */
-    /* #section2 {
-        width: 100%;
-        overflow: auto ;
-     }
-     .container2{
-         display: inline-block;
-         white-space: nowrap; 
-      } */
     #third{
         display: none;
     }

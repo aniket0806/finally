@@ -83,7 +83,7 @@ html::-webkit-scrollbar-thumb{
     font-family: "Gilroy";
     font-weight: 500;
 }
-#header a:hover{
+.b:hover{
     background-color: #FFA500;
     height:28px;
     border: 2px solid  #FFA500; 
