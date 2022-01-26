@@ -29,7 +29,7 @@ html,body{
     padding: 10px 10px;
     width: 450px;
     height: 526px;
-    background-color: rgba(0, 0, 0, 0.514);
+    /* background-color: rgba(0, 0, 0, 0.514); */
 }
 #text5 h3{
     display: flex;
