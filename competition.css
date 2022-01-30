@@ -73,14 +73,9 @@ html,body{
         width: 340px;
     }
  #text5{
-     
-        /* position: absolute;
-            top: 30%;
-            left: 50%; */
-        width: 336px;
+     width: 336px;
         height: 515px; 
-        
-     }
+    }
     #text5 h3{
         font-size: 22px;
     }
