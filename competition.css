@@ -11,8 +11,8 @@ html,body{
 #comp{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(to bottom , rgb(225,220,200),rgb(222,22,2));    
-    
+    /* background: linear-gradient(to bottom , rgb(225,220,200),rgb(222,22,2));     */
+    background: linear-gradient(to top right, #66ccff 0%, #000099 100%); 
 }
 #comp1{
     
@@ -20,12 +20,13 @@ html,body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 450px;
-    height: 526px;
+    width: 460px;
+    height: 500px;
     background-color: black;
+    
 }
 #text5{
-  
+    
     padding: 10px 10px;
     width: 450px;
     height: 526px;
@@ -54,12 +55,13 @@ html,body{
     font-weight: 600;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    
    
 }
 #text5 p{
     font-size: 14px;
     font-weight: 400;
-    margin-top: 0.625em ;
+    margin-top: 20px ;
     line-height: 1.25em;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;

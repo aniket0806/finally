@@ -11,7 +11,7 @@ html,body{
 #res{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(to bottom , rgb(225,220,200),rgb(222,22,2));    
+    background: linear-gradient(to top right, #66ccff 0%, #000099 100%); 
 }
 #res{
     padding: 80px 40px;

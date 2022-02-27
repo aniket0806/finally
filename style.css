@@ -125,7 +125,7 @@ html,body{
    padding: 30px 90px;
 }
 #post img{
-    width: 480px;
+    width: 450px;
     padding: 30px  20px;
 }
 #c {
@@ -213,8 +213,8 @@ html,body{
         margin-top: 115px;
     }
     #post img{
-        width: 355px;
-        margin-left: -20px;
+        width: 300px;
+        margin-left: 0px;
         padding: 10px 20px;
     }
 
