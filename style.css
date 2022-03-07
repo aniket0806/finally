@@ -222,7 +222,7 @@ button{
     }
     #post img{
         width: 300px;
-        margin-left: 0px;
+        margin-left: 20px;
         padding: 10px 20px;
     }
 
@@ -242,7 +242,7 @@ button{
     }
     #btn {
         left: 50%;
-        top: 17%;
+        top: 13%;
         width: 154px;
         height: 41px;
         font-weight: 400;
